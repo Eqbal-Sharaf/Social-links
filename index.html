@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(0, 0%, 8%);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    div.main{
+      background-color: hsl(0, 0%, 12%);
+      color: hsl(0, 0%, 100%);
+      width: 350px;
+      text-align: center;
+      font-family: "Inter", sans-serif;
+      padding: 35px;
+      border-radius: 10px;
+    }
+    .main img {
+      border-radius: 100%;
+      width: 100px;
+    }
+    .main h2{
+      margin-bottom: 10px;
+    }
+    .main span{
+      color: hsl(75, 94%, 57%);
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .main p{
+      margin: 28px 0 24px 0;
+      font-size: 14px;
+      color: hsl(0, 0%, 80%);
+    }
+    .profiles-container{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .profiles-container div {
+      background-color: hsl(0, 0%, 20%);
+      padding: 12px;
+      border-radius: 5px;
+    }
+    .profiles-container div a {
+      color: hsl(0, 0%, 100%);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="jessica image" />
+    <h2>Jessica Randall</h2>
+    <span>London, United Kingdom</span>
+    <p>"Front-end developer and avid reader."</p>
+    <div class="profiles-container">
+      <div><a href="">GitHub</a></div>
+      <div><a href="">Mentor</a></div>
+      <div><a href="">LinkedIn</a></div>
+      <div><a href="">Twitter</a></div>
+      <div><a href="">Instagram</a></div>
+    </div>
+  </div>
+</body>
+</html>
